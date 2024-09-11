@@ -3,7 +3,7 @@ const userModel = require("../models/userModels");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const doctorModel = require("../models/doctorModel");
-const appointmentModel = require("../models/AppointmentModel");
+const appointmentModel = require("../models/appointmentModel");
 const moment = require("moment");
 const sendEmail = require("../mail");
 
